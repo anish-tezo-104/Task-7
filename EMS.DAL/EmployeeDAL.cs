@@ -13,7 +13,7 @@ public class EmployeeDAL : IEmployeeDAL
     private readonly string? _connectionString = "";
     private readonly ILogger _logger;
 
-    public EmployeeDAL(EMSContext context, ILogger logger, string connectionString) : base()
+    public EmployeeDAL(EMSContext context, ILogger logger, string connectionString)
     {
         _context = context;
         _logger = logger;

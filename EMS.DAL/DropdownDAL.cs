@@ -11,7 +11,7 @@ public class DropdownDAL : IDropdownDAL
     private readonly string? _connectionString = "";
     private readonly ILogger _logger;
 
-    public DropdownDAL(EMSContext context, ILogger logger, string connectionString) : base()
+    public DropdownDAL(EMSContext context, ILogger logger, string connectionString) 
     {
         _context = context;
         _logger = logger;
