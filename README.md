@@ -34,7 +34,7 @@ Example <b>\`appsettings.json\`</b> :
 
 ```json
 {
- "ConnectionString" : "Server=myServerAddress;Database=myDataBase;Integrated Security=true"
+ "ConnectionString" : "Server=myServerAddress;Database=myDataBase;Integrated Security=true;TrustServerCertificate=true"
 }
 
 ```
